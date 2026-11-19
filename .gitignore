@@ -1,0 +1,13 @@
+*.apk
+*.aab
+*.jks
+*.keystore
+*.p12
+*.bytes
+*.log
+*.zip
+/build/
+/assets/
+/signing/
+/toolchain/
+/local.properties

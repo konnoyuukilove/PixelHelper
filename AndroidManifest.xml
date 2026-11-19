@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.yuuki.egskip" android:versionCode="90" android:versionName="0.90">
+ <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="28"/>
+ <uses-permission android:name="android.permission.VIBRATE"/><uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/><uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+ <application android:label="像素动画助手" android:icon="@drawable/ic_launcher" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="false" android:debuggable="false">
+  <activity android:name=".MainActivity" android:exported="true"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+  <activity android:name=".RouteFiles" android:exported="false"/>
+  <service android:name=".OverlayService" android:exported="false"/>
+ </application>
+</manifest>
